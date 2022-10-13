@@ -4,7 +4,7 @@ import fire from '../Firebase/connection-firebase';
 export default function Home() {
     const [user, setUser] = React.useState(1);
     useEffect (() => {
-        
+
     }, []);
 
     fire.auth().onAuthStateChanged(user => {
@@ -15,7 +15,7 @@ export default function Home() {
         }
     })
 
-    
+
     return (
         <>
             <div className="hero">
@@ -41,8 +41,8 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-            </div> 
-            
+            </div>
+
             { user &&
 
                 <div className="about wow fadeInUp" data-wow-delay="0.1s">
@@ -91,7 +91,7 @@ export default function Home() {
                     </div>
                 </div>
 
-               
+
 
             <div className="about wow fadeInUp" data-wow-delay="0.1s">
                 <div className="container">
@@ -116,8 +116,8 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            
-            
+
+
             <div className="about wow fadeInUp" data-wow-delay="0.1s">
                 <div className="container">
                     <div className="row align-items-center">
@@ -171,7 +171,7 @@ export default function Home() {
             </div>
 
             { user &&
-     
+
             <div className="about wow fadeInUp" data-wow-delay="0.1s">
                 <div className="container">
                     <div className="row align-items-center">
@@ -197,7 +197,7 @@ export default function Home() {
             }
 
             { user &&
-    
+
             <div className="about wow fadeInUp" data-wow-delay="0.1s">
                 <div className="container">
                     <div className="row align-items-center">
@@ -221,24 +221,24 @@ export default function Home() {
             </div>
 
             }
-            
+
             <div className="discount wow zoomIn" data-wow-delay="0.1s">
                 <div className="container">
                     <div className="section-header text-center">
-                    <p>Situación Arequipa al 15 de Julio del 2021</p>
-                    <h2>Total muestras <span> 2,066,361</span> </h2>
-                    <h2>Casos Positivos<span> 249,160</span> </h2>
-                    <h2>Casos Negativos<span> 1,816,689</span> </h2>
-                    <h2>Defunciones<span> 6,318</span> </h2>
+                    <p>Sala situacional vacunacion covid en Arequipa 2022</p>
+                    <h2>Dosis Aplicadas <span> 84,678,378</span> </h2>
+                    <h2>Inmunizados 3 dosis<span> 20,792,839</span> </h2>
+                    <h2>Avance 3 dosis<span> 80.87%</span> </h2>
+                    <h2>Pobalcion General<span> 72.75%</span> </h2>
                     </div>
                 </div>
             </div>
-            
+
             <div className="footer wow fadeIn" data-wow-delay="0.3s">
                 <div className="container-fluid">
                     <div className="container">
                         <div className="footer-info">
-                            <a href="index.html" className="footer-logo">I<span>nfo</span>AQP</a>
+                            <a href="/" className="footer-logo">I<span>nfo</span>AQP</a>
                             <h3>Universidad Nacional de San Agustín</h3>
                             <div className="footer-menu">
                                 <p>Arequipa, Perú</p>
@@ -257,7 +257,7 @@ export default function Home() {
                         <div className="row">
                             <div className="col-md" align='center'>
                                 <p>&copy; InfoAQP, All Right Reserved.</p>
-                            </div>                          
+                            </div>
                         </div>
                     </div>
                 </div>
